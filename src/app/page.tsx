@@ -5,7 +5,7 @@ export default async function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Link prefetch href="/demo">
+        <Link prefetch={false} href="/demo">
           Demo
         </Link>
       </main>
